@@ -1,0 +1,33 @@
+.section {
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        max-width: 430px;
+        font-size: 36px;
+        font-weight: 700;
+        margin-right: 50px;
+        flex-shrink: 0;
+        
+        &::after {
+            content: "";
+            margin-top: 10px;
+            display: block;
+            width: 1.5em;
+            height: 0.2em;
+            background-color: #eb5635;
+        }
+    }
+
+    &__descr {
+        max-width: 762px;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 25px;
+    }
+}

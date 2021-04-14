@@ -1,0 +1,40 @@
+.work {
+    padding: 50px 0;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 48%;
+        color: #b1b1b1;
+        background-color: #fff;
+        padding: 30px 30px 30px 70px;
+    }
+
+    &__name {
+        color: #4b4b4b;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &__info {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    &__address {
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 40px;
+    }
+
+    // &__time {
+    // }
+
+    &__description {
+        margin-bottom: 25px;
+    }
+}

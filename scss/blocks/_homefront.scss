@@ -1,0 +1,40 @@
+.homefront {
+    padding: 80px 0 0 0;
+    min-height: 610px;
+    background: url("../img/bg-homefront.jpg") center center / cover no-repeat;
+
+    & .intro-game {
+        margin-top: 0;
+        margin-left: auto;
+        color: var(--color-text-title);
+
+        &__name {
+            position: relative;
+            color: inherit;
+        }
+
+        &__link {
+            position: absolute;
+            top: 7%;
+            right: -120px;
+            max-width: 100px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--color-text-light);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &__title {
+            color: inherit;
+        }
+
+        &__descr {
+            color: inherit;
+        }
+    }
+}
